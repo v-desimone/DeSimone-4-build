@@ -46,7 +46,7 @@ nav ul {
 }
 nav a {
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   outline: 2px solid rgb(185, 209, 255);
   padding: 0.5rem;
   color: white;
@@ -73,7 +73,10 @@ section {
 h2 {
   font-size: 2rem;
 }
-section p {
+h3 {
+  font-size: 1.5rem
+}
+section p, .card-row p, .card-row ul, footer {
   font-size: 1.25rem;
 }
 #locations ul, .card-row ul {
@@ -95,9 +98,6 @@ section p {
   padding: 0.5rem;
   color: white;
 }
-.card-row p {
-  font-size: 1rem;
-}
 .card-row ul {
   padding-left: 1.15rem;
 }
@@ -106,9 +106,6 @@ section p {
 }
 img {
   border: 2px solid rgb(15, 99, 255);
-}
-footer {
-  font-size: 1.25rem;
 }
 
 @media screen and (width >= 960px) {
